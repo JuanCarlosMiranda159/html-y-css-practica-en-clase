@@ -105,3 +105,12 @@ grid-template-areas:
     grid-row: 4/5;*/
     grid-area:c8 ;
 }
+@media(max-width:700px){
+.main-container{
+    grid-template-columns: 1fr;
+    grid-template-rows:repeat(8,200);
+    grid-template-areas:initial ;
+}
+.main-container{
+    grid-area:initial !important;
+}
