@@ -15,7 +15,7 @@ result = number_1 * number_2;
 console.log(result)
 document.getElementById("result").innerHTML="no hay resultado:"+result;  
 document.write("<h1>certus oficial</h1>");
-document.write("<h1>gozu</h1>");
+document.write("<h1>hola</h1>");
 document.write("hola mundo");
 var cond1=true
 var cond2=false
@@ -53,9 +53,6 @@ function sumar(value1 , value2){
     document.getElementById("funcion").innerHTML="el resultado de la suma:"+result
   
  }
-
-
-
 function sumar2(value1,value2){
     var result1 = value1 + value2;
     return result1
@@ -75,3 +72,25 @@ console.log(nombre);
 
 
 
+
+function sumar(value1,value2)
+{
+    var result1 = value1 + value2;
+    return result
+    
+ }
+ document.getElementById("suma")innerHTML=sumar
+
+
+
+
+
+function restar(value1,value2)
+        var result = value1 - value2;
+        return result   
+function dividir(value1,value2)
+            var result1 = value1 / value2;
+            return result
+function multiplicar(value1,value2)
+                var result1 = value1 * value2;
+                return result
