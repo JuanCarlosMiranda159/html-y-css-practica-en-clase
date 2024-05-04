@@ -1,22 +1,32 @@
-h1{
-    font-size:50px;
-    color: black;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight:25px ;
+.bg-primary
+{
+    background-color: hsl(240,100%,5%)!important;
     
 }
-button{
-    padding: 15px;
-    background-color:rgb(5, 128, 5);
-    width:150px;
-    height:50px;
-    color:white;
+@font-face {
+    font-family:"Inter";
+    src: url(../assets/fonts/static/Inter-Regular.ttf); 
+    font-weight:400;
 }
-.contenedordiv
-{
-padding: 10px;
+
+@font-face {
+    font-family:"Inter";
+    src: url(../assets/fonts/static/Inter-Bold.ttf); 
+    font-weight:700;
 }
-li{
-    padding: 1px;
-    border:10px;
+
+@font-face {
+    font-family:"Inter";
+    src: url(../assets/fonts/static/Inter-ExtraBold.ttf); 
+    font-weight:800;
+}
+body{
+    font-family: "Inter",sans-serif;
+}
+.text-principal{
+    font-weight: 900;
+    font-size: 60px;
+}
+.letter-3{
+    letter-spacing:3px;
 }
