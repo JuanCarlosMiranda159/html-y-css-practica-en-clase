@@ -1,0 +1,22 @@
+h1{
+    font-size:50px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:25px ;
+    
+}
+button{
+    padding: 15px;
+    background-color:rgb(5, 128, 5);
+    width:150px;
+    height:50px;
+    color:white;
+}
+.contenedordiv
+{
+padding: 10px;
+}
+li{
+    padding: 1px;
+    border:10px;
+}
